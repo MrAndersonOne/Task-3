@@ -10,16 +10,18 @@
 
   <body>
     <header class="headcol py-5 mb-4">
-      <h1 class="text-center px-4">Мой первый Bootstrap</h1>
-      <p class="text-center px-4">Измените размер этой страницы, чтобы увидеть еффект!</p>
+      <div class="container">
+        <h1 class="text-center">Мой первый Bootstrap</h1>
+        <p class="text-center">Измените размер этой страницы, чтобы увидеть еффект!</p>
+      </div>
     </header>
 	<div class="container">
 		<div class="row">
-        <div class="bg-primary py-5 col-12 col-lg-6">
-          <h3 class="text-center text-white">A</h3>
+        <div class="col-12 col-lg-6 order-2 order-lg-1">
+          <h3 class="py-5 text-center text-white bg-primary">A</h3>
         </div>
-        <div class="bg-success py-5 col-12 col-lg-6">
-          <h3 class="text-center text-white">B</h3>
+        <div class="col-12 col-lg-6 order-1 order-lg-2">
+          <h3 class="py-5 text-center text-white bg-success">B</h3>
       </div>
     </div>
 	</div>
